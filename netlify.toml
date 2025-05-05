@@ -1,4 +1,3 @@
 [build]
   publish = "dist/"
-  command = "yarn cache clean && yarn add --os=linux --cpu=x64 sharp@0.32 --ignore-engines && yarn build"
-  command = "pnpm run build"
+  command = "npm install sharp && pnpm add sharp && pnpm run build"
